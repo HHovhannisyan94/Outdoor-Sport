@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "577575165843",
+    "project_id": "outdoor-sport-f5f92",
+    "storage_bucket": "outdoor-sport-f5f92.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577575165843:android:e7b297e841bbd868f41266",
+        "android_client_info": {
+          "package_name": "com.example.outdoorsport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577575165843-kgn5muudiaahdedqvuplc41job5oknit.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC52IAMdvbagt68yL6JMaDklpIkLqWpQpw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577575165843-kgn5muudiaahdedqvuplc41job5oknit.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">TeamTime by MarcinPe</string>
+    <string name="admin">Admin</string>
+    <string name="pause">Pause</string>
+    <string name="adminView">AdminView</string>
+    <string name="reset_all">Reset all</string>
+    <string name="logs">Logs</string>
+    <string name="login">Login</string>
+    <string name="username">UserName</string>
+    <string name="password">Password</string>
+    <string name="initial">00:00:00</string>
+    <string name="info1">Hello! The application you have just opened was created for enthusiasts of outdoor games and military simulations. It allows "admins" to create simple tasks and "checkpoints" using phones with the application. If you do not have access - but would like to - please contact me by email: </string>
+    <string name="info2">The application you have just opened was created for enthusiasts of outdoor games and military simulations. It allows "admins" to create simple, safe and long term tasks and treat phone as a "checkpoints" using this application (on several phones).If you have any questions contact me by email: </string>
+    <string name="email"> <u>marcinpeg@gmail.com</u></string>
+    <string name="status_online">Status: Online</string>
+    <string name="status_offline">Status: Offline</string>
+    <string name="enter_the_code">Enter the code</string>
+    <string name="close">Close</string>
+    <string name="reset">Reset</string>
+    <string name="start_game">Start game</string>
+    <string name="game_3_decoding_settings">Game 3: Decoding Settings</string>
+    <string name="game_2_code_generation_settings">Game 2: Code generation Settings</string>
+    <string name="admin_panel">Admin Panel</string>
+    <string name="game_1_clocks_settings">Game 1: Clocks Settings</string>
+    <string name="back">Back</string>
+    <string name="no_logs_found">No logs found.</string>
+    <string name="delete_all">Delete all</string>
+    <string name="choose_the_same_code_for_all_teams">Choose the same code for all teams</string>
+    <string name="codes">Codes</string>
+    <string name="enter_a_code">Enter a code</string>
+    <string name="enter_a_message">Enter a message</string>
+    <string name="who_does_it_apply_to">Who does it apply to?</string>
+    <string name="choose_a_second_for_showing_a_message">Choose a second for showing a message</string>
+    <string name="choose_a_minute_for_checking_codes">Choose a minute for checking codes</string>
+    <string name="game_1_clocks">Game 1: Clocks</string>
+    <string name="game_2_code_generation">Game 2: Code generation</string>
+    <string name="game_3_decoding">Game 3: Decoding</string>
+    <string name="start">Start</string>
+    <string name="logo">logo</string>
+    <string name="reuse">Reuse</string>
+    <string name="delete">delete</string>
+    <string-array name="gameLogs">
+        <item>GameLogs 1</item>
+        <item>GameLogs 2</item>
+        <item>GameLogs 3</item>
+        <item>GameLogs 4</item>
+        <item>GameLogs 5</item>
+        <item>GameLogs 6</item>
+        <item>GameLogs 7</item>
+        <item>GameLogs 8</item>
+        <item>GameLogs 9</item>
+        <item>GameLogs 10</item>
+    </string-array>
+
+</resources>

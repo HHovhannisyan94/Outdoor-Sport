@@ -1,0 +1,28 @@
+<resources >
+    <style name="Base.Theme.OutdoorSport" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <style name="RoundedCornersDialog" parent="@style/Theme.AppCompat.Light.Dialog">
+        <item name="dialogCornerRadius">15dp</item>
+    </style>
+
+ <!--   <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo</item>
+        <item name="windowSplashScreenAnimationDuration">15000</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.OutdoorSport</item>
+    </style>-->
+
+    <style name="MatchSpinnerStyle" parent="android:style/Widget.ListView.DropDown">
+        <item name="android:divider">#123456</item>
+        <item name="android:dividerHeight">1dp</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+    </style>
+
+    <style name="MatchSpinnerTheme" parent="Theme.AppCompat.Light">
+        <item name="android:dropDownListViewStyle">@style/MatchSpinnerStyle</item>
+    </style>
+
+</resources>

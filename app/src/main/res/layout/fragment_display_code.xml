@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardCornerRadius="15dp"
+    app:strokeWidth="5dp">
+
+<!--<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">-->
+
+    <TextView
+        android:id="@+id/tv_show_code"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:rotation="90"
+        android:text="The code:"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+<!--
+</FrameLayout>
+-->
+</com.google.android.material.card.MaterialCardView>

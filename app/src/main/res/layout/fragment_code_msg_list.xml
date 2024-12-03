@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context=".presentation.fragments.CodeListFragment">
+
+
+    <TextView
+        android:id="@+id/tv_empty_list"
+        android:layout_width="match_parent"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:textAlignment="center"
+        android:text="Empty list"
+        android:layout_height="wrap_content"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/codesRV"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        tools:listitem="@layout/team_codes_msg_rv_item" />
+
+    <com.google.android.material.button.MaterialButton
+        android:background="@color/blue"
+        android:id="@+id/btn_delete_all"
+        android:textSize="16sp"
+        android:text="Delete all"
+        app:icon="@drawable/ic_delete"
+        app:cornerRadius="20dp"
+        app:iconGravity="textStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</FrameLayout>
